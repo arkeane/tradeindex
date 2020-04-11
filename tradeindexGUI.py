@@ -2,7 +2,6 @@ import tkinter as tk
 from datetime import date
 from functions import *
 
-matplotlib.use('TkAgg')
 today = date.today()
 yearplot = date(today.year-1,today.month,today.day)
 command_list = ["AAPL",yearplot,today,"Close",False] #default values

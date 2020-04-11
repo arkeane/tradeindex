@@ -3,9 +3,6 @@ import argparse
 from datetime import date
 from functions import *
 
-
-#settings
-matplotlib.use('TkAgg') #set tkinter as matlib displayer
 today = date.today()
 yearplot = date(today.year-1,today.month,today.day)
 

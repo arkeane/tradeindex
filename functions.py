@@ -3,6 +3,8 @@ import pandas as pd
 from pandas_datareader import data as pdr
 import matplotlib
 import matplotlib.pyplot as plt
+
+matplotlib.use('TkAgg')
 yf.pdr_override()
 
 def SaveData(df,filename):
