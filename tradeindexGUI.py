@@ -15,6 +15,7 @@ def _quit():
     root.destroy()
 
 root = tk.Tk()
+root.title("TradeIndex")
 
 label = tk.Label(root, text="TradeIndex", font=("Arial Bold", 30))
 label.pack()
