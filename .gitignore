@@ -1,6 +1,4 @@
 # created by virtualenv automatically
 .csv
 __pycache__/
-bin/
-lib/
-pyvenv.cfg
+venv/
